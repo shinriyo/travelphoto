@@ -7,19 +7,31 @@
 //
 
 #import "TPAppDelegate.h"
+#import "JASidePanelController.h"
+#import "TPLeftMenuController.h"
+#import "TPMyPageController.h"
 
 @implementation TPAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
+@synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    //self.window.backgroundColor = [UIColor whiteColor];
+    //[self.window makeKeyAndVisible];
+    
+    self.viewController = [[JASidePanelController alloc] init];
+    self.viewController.shouldDelegateAutorotateToVisiblePanel = NO;
+    
+    self.viewController.leftPanel = [[JASidePanelController alloc] init];
+    self.viewController.leftPanel = [[JASidePanelController alloc] init];
+    
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"travelphoto.sqlite"];
     return YES;
 }
 

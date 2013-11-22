@@ -9,5 +9,7 @@
 #import "TPLeftMenuController.h"
 
 @implementation TPLeftMenuController
-
+- (void)viewDidLoad {
+    [self.view setBackgroundColor:[UIColor whiteColor]];
+}
 @end

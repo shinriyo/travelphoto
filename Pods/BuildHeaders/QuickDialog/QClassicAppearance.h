@@ -1,0 +1,1 @@
+../../QuickDialog/QClassicAppearance.h

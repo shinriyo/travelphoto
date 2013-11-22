@@ -1,480 +1,1422 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		23084F751838716B00F79501 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23084F741838716B00F79501 /* Foundation.framework */; };
-		23084F771838716B00F79501 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23084F761838716B00F79501 /* CoreGraphics.framework */; };
-		23084F791838716B00F79501 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23084F781838716B00F79501 /* UIKit.framework */; };
-		23084F7B1838716B00F79501 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23084F7A1838716B00F79501 /* CoreData.framework */; };
-		23084F811838716B00F79501 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23084F7F1838716B00F79501 /* InfoPlist.strings */; };
-		23084F831838716B00F79501 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23084F821838716B00F79501 /* main.m */; };
-		23084F871838716B00F79501 /* TPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23084F861838716B00F79501 /* TPAppDelegate.m */; };
-		23084F8A1838716B00F79501 /* travelphoto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23084F881838716B00F79501 /* travelphoto.xcdatamodeld */; };
-		23084F8C1838716B00F79501 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23084F8B1838716B00F79501 /* Images.xcassets */; };
-		23084F931838716B00F79501 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23084F921838716B00F79501 /* XCTest.framework */; };
-		23084F941838716B00F79501 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23084F741838716B00F79501 /* Foundation.framework */; };
-		23084F951838716B00F79501 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23084F781838716B00F79501 /* UIKit.framework */; };
-		23084F961838716B00F79501 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23084F7A1838716B00F79501 /* CoreData.framework */; };
-		23084F9E1838716B00F79501 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23084F9C1838716B00F79501 /* InfoPlist.strings */; };
-		23084FA01838716B00F79501 /* travelphotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23084F9F1838716B00F79501 /* travelphotoTests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		23084F971838716B00F79501 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 23084F691838716B00F79501 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23084F701838716B00F79501;
-			remoteInfo = travelphoto;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		23084F711838716B00F79501 /* travelphoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelphoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		23084F741838716B00F79501 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		23084F761838716B00F79501 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		23084F781838716B00F79501 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		23084F7A1838716B00F79501 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		23084F7E1838716B00F79501 /* travelphoto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "travelphoto-Info.plist"; sourceTree = "<group>"; };
-		23084F801838716B00F79501 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		23084F821838716B00F79501 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		23084F841838716B00F79501 /* travelphoto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "travelphoto-Prefix.pch"; sourceTree = "<group>"; };
-		23084F851838716B00F79501 /* TPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPAppDelegate.h; sourceTree = "<group>"; };
-		23084F861838716B00F79501 /* TPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPAppDelegate.m; sourceTree = "<group>"; };
-		23084F891838716B00F79501 /* travelphoto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = travelphoto.xcdatamodel; sourceTree = "<group>"; };
-		23084F8B1838716B00F79501 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		23084F911838716B00F79501 /* travelphotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = travelphotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23084F921838716B00F79501 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		23084F9B1838716B00F79501 /* travelphotoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "travelphotoTests-Info.plist"; sourceTree = "<group>"; };
-		23084F9D1838716B00F79501 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		23084F9F1838716B00F79501 /* travelphotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = travelphotoTests.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		23084F6E1838716B00F79501 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23084F771838716B00F79501 /* CoreGraphics.framework in Frameworks */,
-				23084F7B1838716B00F79501 /* CoreData.framework in Frameworks */,
-				23084F791838716B00F79501 /* UIKit.framework in Frameworks */,
-				23084F751838716B00F79501 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23084F8E1838716B00F79501 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23084F931838716B00F79501 /* XCTest.framework in Frameworks */,
-				23084F961838716B00F79501 /* CoreData.framework in Frameworks */,
-				23084F951838716B00F79501 /* UIKit.framework in Frameworks */,
-				23084F941838716B00F79501 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		23084F681838716B00F79501 = {
-			isa = PBXGroup;
-			children = (
-				23084F7C1838716B00F79501 /* travelphoto */,
-				23084F991838716B00F79501 /* travelphotoTests */,
-				23084F731838716B00F79501 /* Frameworks */,
-				23084F721838716B00F79501 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		23084F721838716B00F79501 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				23084F711838716B00F79501 /* travelphoto.app */,
-				23084F911838716B00F79501 /* travelphotoTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		23084F731838716B00F79501 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				23084F741838716B00F79501 /* Foundation.framework */,
-				23084F761838716B00F79501 /* CoreGraphics.framework */,
-				23084F781838716B00F79501 /* UIKit.framework */,
-				23084F7A1838716B00F79501 /* CoreData.framework */,
-				23084F921838716B00F79501 /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		23084F7C1838716B00F79501 /* travelphoto */ = {
-			isa = PBXGroup;
-			children = (
-				23084F851838716B00F79501 /* TPAppDelegate.h */,
-				23084F861838716B00F79501 /* TPAppDelegate.m */,
-				23084F8B1838716B00F79501 /* Images.xcassets */,
-				23084F881838716B00F79501 /* travelphoto.xcdatamodeld */,
-				23084F7D1838716B00F79501 /* Supporting Files */,
-			);
-			path = travelphoto;
-			sourceTree = "<group>";
-		};
-		23084F7D1838716B00F79501 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				23084F7E1838716B00F79501 /* travelphoto-Info.plist */,
-				23084F7F1838716B00F79501 /* InfoPlist.strings */,
-				23084F821838716B00F79501 /* main.m */,
-				23084F841838716B00F79501 /* travelphoto-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		23084F991838716B00F79501 /* travelphotoTests */ = {
-			isa = PBXGroup;
-			children = (
-				23084F9F1838716B00F79501 /* travelphotoTests.m */,
-				23084F9A1838716B00F79501 /* Supporting Files */,
-			);
-			path = travelphotoTests;
-			sourceTree = "<group>";
-		};
-		23084F9A1838716B00F79501 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				23084F9B1838716B00F79501 /* travelphotoTests-Info.plist */,
-				23084F9C1838716B00F79501 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		23084F701838716B00F79501 /* travelphoto */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23084FA31838716B00F79501 /* Build configuration list for PBXNativeTarget "travelphoto" */;
-			buildPhases = (
-				23084F6D1838716B00F79501 /* Sources */,
-				23084F6E1838716B00F79501 /* Frameworks */,
-				23084F6F1838716B00F79501 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = travelphoto;
-			productName = travelphoto;
-			productReference = 23084F711838716B00F79501 /* travelphoto.app */;
-			productType = "com.apple.product-type.application";
-		};
-		23084F901838716B00F79501 /* travelphotoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23084FA61838716B00F79501 /* Build configuration list for PBXNativeTarget "travelphotoTests" */;
-			buildPhases = (
-				23084F8D1838716B00F79501 /* Sources */,
-				23084F8E1838716B00F79501 /* Frameworks */,
-				23084F8F1838716B00F79501 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				23084F981838716B00F79501 /* PBXTargetDependency */,
-			);
-			name = travelphotoTests;
-			productName = travelphotoTests;
-			productReference = 23084F911838716B00F79501 /* travelphotoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		23084F691838716B00F79501 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				CLASSPREFIX = TP;
-				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = shinriyo;
-				TargetAttributes = {
-					23084F901838716B00F79501 = {
-						TestTargetID = 23084F701838716B00F79501;
-					};
-				};
-			};
-			buildConfigurationList = 23084F6C1838716B00F79501 /* Build configuration list for PBXProject "travelphoto" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 23084F681838716B00F79501;
-			productRefGroup = 23084F721838716B00F79501 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				23084F701838716B00F79501 /* travelphoto */,
-				23084F901838716B00F79501 /* travelphotoTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		23084F6F1838716B00F79501 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23084F811838716B00F79501 /* InfoPlist.strings in Resources */,
-				23084F8C1838716B00F79501 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23084F8F1838716B00F79501 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23084F9E1838716B00F79501 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		23084F6D1838716B00F79501 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23084F871838716B00F79501 /* TPAppDelegate.m in Sources */,
-				23084F8A1838716B00F79501 /* travelphoto.xcdatamodeld in Sources */,
-				23084F831838716B00F79501 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23084F8D1838716B00F79501 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23084FA01838716B00F79501 /* travelphotoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		23084F981838716B00F79501 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 23084F701838716B00F79501 /* travelphoto */;
-			targetProxy = 23084F971838716B00F79501 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		23084F7F1838716B00F79501 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23084F801838716B00F79501 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		23084F9C1838716B00F79501 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23084F9D1838716B00F79501 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		23084FA11838716B00F79501 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		23084FA21838716B00F79501 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		23084FA41838716B00F79501 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "travelphoto/travelphoto-Prefix.pch";
-				INFOPLIST_FILE = "travelphoto/travelphoto-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		23084FA51838716B00F79501 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "travelphoto/travelphoto-Prefix.pch";
-				INFOPLIST_FILE = "travelphoto/travelphoto-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		23084FA71838716B00F79501 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/travelphoto.app/travelphoto";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "travelphoto/travelphoto-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "travelphotoTests/travelphotoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		23084FA81838716B00F79501 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/travelphoto.app/travelphoto";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "travelphoto/travelphoto-Prefix.pch";
-				INFOPLIST_FILE = "travelphotoTests/travelphotoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		23084F6C1838716B00F79501 /* Build configuration list for PBXProject "travelphoto" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				23084FA11838716B00F79501 /* Debug */,
-				23084FA21838716B00F79501 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		23084FA31838716B00F79501 /* Build configuration list for PBXNativeTarget "travelphoto" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				23084FA41838716B00F79501 /* Debug */,
-				23084FA51838716B00F79501 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		23084FA61838716B00F79501 /* Build configuration list for PBXNativeTarget "travelphotoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				23084FA71838716B00F79501 /* Debug */,
-				23084FA81838716B00F79501 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		23084F881838716B00F79501 /* travelphoto.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				23084F891838716B00F79501 /* travelphoto.xcdatamodel */,
-			);
-			currentVersion = 23084F891838716B00F79501 /* travelphoto.xcdatamodel */;
-			path = travelphoto.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
-	};
-	rootObject = 23084F691838716B00F79501 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>2010FB3D493C4707B7EA500C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>23084F681838716B00F79501</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>23084F7C1838716B00F79501</string>
+				<string>23084F991838716B00F79501</string>
+				<string>23084F731838716B00F79501</string>
+				<string>23084F721838716B00F79501</string>
+				<string>667D3CB41606489CBA7CB034</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F691838716B00F79501</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>CLASSPREFIX</key>
+				<string>TP</string>
+				<key>LastUpgradeCheck</key>
+				<string>0500</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>shinriyo</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>23084F901838716B00F79501</key>
+					<dict>
+						<key>TestTargetID</key>
+						<string>23084F701838716B00F79501</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>23084F6C1838716B00F79501</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>23084F681838716B00F79501</string>
+			<key>productRefGroup</key>
+			<string>23084F721838716B00F79501</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>23084F701838716B00F79501</string>
+				<string>23084F901838716B00F79501</string>
+			</array>
+		</dict>
+		<key>23084F6C1838716B00F79501</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>23084FA11838716B00F79501</string>
+				<string>23084FA21838716B00F79501</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>23084F6D1838716B00F79501</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>23A90A271838FAB800A021B0</string>
+				<string>23A90A301838FAFA00A021B0</string>
+				<string>23084F871838716B00F79501</string>
+				<string>23A90A211838FA8B00A021B0</string>
+				<string>23A90A2A1838FACD00A021B0</string>
+				<string>23084F8A1838716B00F79501</string>
+				<string>23A90A2D1838FAD900A021B0</string>
+				<string>23F490581838D29C009D9DE7</string>
+				<string>23084F831838716B00F79501</string>
+				<string>23A90A241838FAAA00A021B0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>23084F6E1838716B00F79501</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>23A90A3218397EC900A021B0</string>
+				<string>23F4905A1838D6B7009D9DE7</string>
+				<string>23084F771838716B00F79501</string>
+				<string>23084F7B1838716B00F79501</string>
+				<string>23084F791838716B00F79501</string>
+				<string>23084F751838716B00F79501</string>
+				<string>E1205F71E74C44A2A466EBEB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>23084F6F1838716B00F79501</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>23084FAA1838B98700F79501</string>
+				<string>23084F811838716B00F79501</string>
+				<string>23084F8C1838716B00F79501</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>23084F701838716B00F79501</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>23084FA31838716B00F79501</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C5A6C027F8EC45A79AD7F37B</string>
+				<string>23084F6D1838716B00F79501</string>
+				<string>23084F6E1838716B00F79501</string>
+				<string>23084F6F1838716B00F79501</string>
+				<string>2010FB3D493C4707B7EA500C</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>travelphoto</string>
+			<key>productName</key>
+			<string>travelphoto</string>
+			<key>productReference</key>
+			<string>23084F711838716B00F79501</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>23084F711838716B00F79501</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>travelphoto.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>23084F721838716B00F79501</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>23084F711838716B00F79501</string>
+				<string>23084F911838716B00F79501</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F731838716B00F79501</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>23A90A3118397EC900A021B0</string>
+				<string>23F490591838D6B7009D9DE7</string>
+				<string>23084F741838716B00F79501</string>
+				<string>23084F761838716B00F79501</string>
+				<string>23084F781838716B00F79501</string>
+				<string>23084F7A1838716B00F79501</string>
+				<string>23084F921838716B00F79501</string>
+				<string>874CADDF745649CBA66D3169</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F741838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>23084F751838716B00F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084F741838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23084F761838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>23084F771838716B00F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084F761838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23084F781838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>23084F791838716B00F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084F781838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23084F7A1838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreData.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreData.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>23084F7B1838716B00F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084F7A1838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23084F7C1838716B00F79501</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>23A90A1E1838F8A300A021B0</string>
+				<string>23084FA91838B98700F79501</string>
+				<string>23084F851838716B00F79501</string>
+				<string>23084F861838716B00F79501</string>
+				<string>23084F8B1838716B00F79501</string>
+				<string>23084F881838716B00F79501</string>
+				<string>23084F7D1838716B00F79501</string>
+				<string>231FB3421838CF93001B646C</string>
+				<string>23F490571838D29C009D9DE7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>travelphoto</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F7D1838716B00F79501</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>23084F7E1838716B00F79501</string>
+				<string>23084F7F1838716B00F79501</string>
+				<string>23084F821838716B00F79501</string>
+				<string>23084F841838716B00F79501</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F7E1838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>travelphoto-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F7F1838716B00F79501</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>23084F801838716B00F79501</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F801838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F811838716B00F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084F7F1838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23084F821838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F831838716B00F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084F821838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23084F841838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>travelphoto-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F851838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TPAppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F861838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TPAppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F871838716B00F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084F861838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23084F881838716B00F79501</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>23084F891838716B00F79501</string>
+			</array>
+			<key>currentVersion</key>
+			<string>23084F891838716B00F79501</string>
+			<key>isa</key>
+			<string>XCVersionGroup</string>
+			<key>path</key>
+			<string>travelphoto.xcdatamodeld</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+			<key>versionGroupType</key>
+			<string>wrapper.xcdatamodel</string>
+		</dict>
+		<key>23084F891838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.xcdatamodel</string>
+			<key>path</key>
+			<string>travelphoto.xcdatamodel</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F8A1838716B00F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084F881838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23084F8B1838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F8C1838716B00F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084F8B1838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23084F8D1838716B00F79501</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>23084FA01838716B00F79501</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>23084F8E1838716B00F79501</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>23084F931838716B00F79501</string>
+				<string>23084F961838716B00F79501</string>
+				<string>23084F951838716B00F79501</string>
+				<string>23084F941838716B00F79501</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>23084F8F1838716B00F79501</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>23084F9E1838716B00F79501</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>23084F901838716B00F79501</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>23084FA61838716B00F79501</string>
+			<key>buildPhases</key>
+			<array>
+				<string>23084F8D1838716B00F79501</string>
+				<string>23084F8E1838716B00F79501</string>
+				<string>23084F8F1838716B00F79501</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>23084F981838716B00F79501</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>travelphotoTests</string>
+			<key>productName</key>
+			<string>travelphotoTests</string>
+			<key>productReference</key>
+			<string>23084F911838716B00F79501</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>23084F911838716B00F79501</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>travelphotoTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>23084F921838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>23084F931838716B00F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084F921838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23084F941838716B00F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084F741838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23084F951838716B00F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084F781838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23084F961838716B00F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084F7A1838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23084F971838716B00F79501</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>23084F691838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>23084F701838716B00F79501</string>
+			<key>remoteInfo</key>
+			<string>travelphoto</string>
+		</dict>
+		<key>23084F981838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>23084F701838716B00F79501</string>
+			<key>targetProxy</key>
+			<string>23084F971838716B00F79501</string>
+		</dict>
+		<key>23084F991838716B00F79501</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>23084F9F1838716B00F79501</string>
+				<string>23084F9A1838716B00F79501</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>travelphotoTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F9A1838716B00F79501</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>23084F9B1838716B00F79501</string>
+				<string>23084F9C1838716B00F79501</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F9B1838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>travelphotoTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F9C1838716B00F79501</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>23084F9D1838716B00F79501</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F9D1838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084F9E1838716B00F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084F9C1838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23084F9F1838716B00F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>travelphotoTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084FA01838716B00F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084F9F1838716B00F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23084FA11838716B00F79501</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>23084FA21838716B00F79501</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>23084FA31838716B00F79501</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>23084FA41838716B00F79501</string>
+				<string>23084FA51838716B00F79501</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>23084FA41838716B00F79501</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>667D3CB41606489CBA7CB034</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>travelphoto/travelphoto-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>travelphoto/travelphoto-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>23084FA51838716B00F79501</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>667D3CB41606489CBA7CB034</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>travelphoto/travelphoto-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>travelphoto/travelphoto-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>23084FA61838716B00F79501</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>23084FA71838716B00F79501</string>
+				<string>23084FA81838716B00F79501</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>23084FA71838716B00F79501</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/travelphoto.app/travelphoto</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>travelphoto/travelphoto-Prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>travelphotoTests/travelphotoTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>23084FA81838716B00F79501</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/travelphoto.app/travelphoto</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>travelphoto/travelphoto-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>travelphotoTests/travelphotoTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>23084FA91838B98700F79501</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder</string>
+			<key>path</key>
+			<string>Model</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23084FAA1838B98700F79501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23084FA91838B98700F79501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>231FB3421838CF93001B646C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TPUserInfo.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23A90A1E1838F8A300A021B0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>23A90A1F1838FA8B00A021B0</string>
+				<string>23A90A201838FA8B00A021B0</string>
+				<string>23A90A221838FAAA00A021B0</string>
+				<string>23A90A231838FAAA00A021B0</string>
+				<string>23A90A251838FAB800A021B0</string>
+				<string>23A90A261838FAB800A021B0</string>
+				<string>23A90A281838FACD00A021B0</string>
+				<string>23A90A291838FACD00A021B0</string>
+				<string>23A90A2B1838FAD900A021B0</string>
+				<string>23A90A2C1838FAD900A021B0</string>
+				<string>23A90A2E1838FAFA00A021B0</string>
+				<string>23A90A2F1838FAFA00A021B0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>LeftMenu</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23A90A1F1838FA8B00A021B0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TPMyPageController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23A90A201838FA8B00A021B0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TPMyPageController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23A90A211838FA8B00A021B0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23A90A201838FA8B00A021B0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23A90A221838FAAA00A021B0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TPTravelController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23A90A231838FAAA00A021B0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TPTravelController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23A90A241838FAAA00A021B0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23A90A231838FAAA00A021B0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23A90A251838FAB800A021B0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TPFriendController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23A90A261838FAB800A021B0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TPFriendController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23A90A271838FAB800A021B0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23A90A261838FAB800A021B0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23A90A281838FACD00A021B0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TPFriendTravelController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23A90A291838FACD00A021B0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TPFriendTravelController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23A90A2A1838FACD00A021B0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23A90A291838FACD00A021B0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23A90A2B1838FAD900A021B0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TPSettingController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23A90A2C1838FAD900A021B0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TPSettingController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23A90A2D1838FAD900A021B0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23A90A2C1838FAD900A021B0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23A90A2E1838FAFA00A021B0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TPLeftMenuController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23A90A2F1838FAFA00A021B0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TPLeftMenuController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23A90A301838FAFA00A021B0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23A90A2F1838FAFA00A021B0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23A90A3118397EC900A021B0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>compiled.mach-o.dylib</string>
+			<key>name</key>
+			<string>libz.dylib</string>
+			<key>path</key>
+			<string>usr/lib/libz.dylib</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>23A90A3218397EC900A021B0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23A90A3118397EC900A021B0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23F490571838D29C009D9DE7</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TPUserInfo.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23F490581838D29C009D9DE7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23F490571838D29C009D9DE7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23F490591838D6B7009D9DE7</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Security.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Security.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>23F4905A1838D6B7009D9DE7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23F490591838D6B7009D9DE7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>667D3CB41606489CBA7CB034</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>874CADDF745649CBA66D3169</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C5A6C027F8EC45A79AD7F37B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>E1205F71E74C44A2A466EBEB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>874CADDF745649CBA66D3169</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>23084F691838716B00F79501</string>
+</dict>
+</plist>

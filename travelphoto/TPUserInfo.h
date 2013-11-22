@@ -8,7 +8,17 @@
 
 #ifndef travelphoto_TPUserInfo_h
 #define travelphoto_TPUserInfo_h
+#import <Foundation/Foundation.h>
+#import "LUKeychainAccess.h"
 
+@interface TPUserInfo : NSObject
 
++ (TPUserInfo *)sharedInstance;
 
+- (NSString *)loadEmail;
+- (void)saveEmail:(NSString *)email;
+- (NSString *)loadPassword;
+- (void)savePassword:(NSString *)password;
+
+@end
 #endif

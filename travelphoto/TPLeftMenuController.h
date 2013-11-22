@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TPLeftMenuController : UIViewController
-
+//@interface TPLeftMenuController () <UITableViewDelegate, UITableViewDataSource>
+@interface TPLeftMenuController : UITableViewController
+//@property (nonatomic, strong) NSString * menuList;
+//@property (nonatomic, strong) UITableView * tableView;
 @end

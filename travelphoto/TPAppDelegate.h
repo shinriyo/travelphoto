@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class JASidePanelController;
 
 @interface TPAppDelegate : UIResponder <UIApplicationDelegate>
+@property (strong, nonatomic) JASidePanelController *viewController;
 
 @property (strong, nonatomic) UIWindow *window;
 
